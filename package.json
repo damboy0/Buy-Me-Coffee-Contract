@@ -1,0 +1,29 @@
+{
+  "name": "buy-me-coffee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Damboy ",
+  "license": "MIT",
+  "devDependencies": {
+    "@ethereum-waffle/chai": "^4.0.10",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^1.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "ethereum-waffle": "^4.0.10",
+    "hardhat": "^2.17.3",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.1.0"
+  },
+  "dependencies": {
+    "ethers": "5.4"
+  }
+}
