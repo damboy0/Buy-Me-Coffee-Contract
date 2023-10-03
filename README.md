@@ -9,8 +9,9 @@ The BuyMeCoffee Smart Contract is a Solidity-based smart contract that allows us
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Running Tests](#running-tests)
-- [Running a Local Ethereum Node](#running-a-local-ethereum-node)
+  - [Deploy and Interact](#deploy-and-interact)
+  - [Running Tests](#running-tests)
+  - [Running a Local Ethereum Node](#running-a-local-ethereum-node)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -33,12 +34,22 @@ Before you start, make sure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+```bash
+# Clone the repository:
+git clone <repository_url>
+cd buy-me-coffee
 
-   ```bash
-   git clone <repository_url>
-   cd buy-me-coffee
+# Install project dependencies:
+yarn install
 
-   ```
 
-1. Install project dependencies:
+#Usage
+Deploy and Interact
+Update the hardhat.config.js file with your network settings and API keys (if necessary).
+
+Compile the smart contracts:
+yarn hardhat compile
+
+
+
+```
